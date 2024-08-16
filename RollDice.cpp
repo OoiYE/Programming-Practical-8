@@ -5,9 +5,9 @@
 using namespace std;
 
 #define DICE_NUM 6
-int read_count();
-void generate_freq(int count, int freq[], int size);
-void print_freq(int freq[], int size);
+int read_count(); //how many times to roll the dice
+void generate_freq(int count, int freq[], int size); //roll output
+void print_freq(int freq[], int size); //frequency of each number
 
 int main(void)
 {
